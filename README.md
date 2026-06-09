@@ -2,6 +2,10 @@
 
 Este projeto utiliza Inteligência Artificial para classificar o nível de risco de ocorrências em diferentes locais, com base em padrões históricos de frequência. A solução analisa dados reais para identificar se uma combinação de local e horário apresenta um **Risco Alto** ou **Risco Normal**, auxiliando na visualização de padrões de segurança urbana.
 
+Criei este sistema como uma ferramenta de apoio para o nosso dia a dia em Marituba. Imagine que você precisa sair para um bairro específico, mas está inseguro sobre o horário ou o local: o projeto ajuda a identificar se, estatisticamente, aquele momento apresenta um risco elevado ou se está dentro de um padrão mais tranquilo. 
+
+O objetivo não é gerar medo, mas fornecer dados para que você possa tomar decisões mais conscientes sobre a sua rotina e seus trajetos pela cidade.
+
 ---
 
 ## 📍 Motivação e Contexto Local
