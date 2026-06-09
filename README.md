@@ -57,13 +57,28 @@ Para rodar o projeto localmente:
 1. **Dependências:** `pip install pandas scikit-learn fastapi uvicorn joblib openpyxl`
 2. **Treino:** Execute `python model.py` para gerar o arquivo de modelo (`.pkl`).
 3. **API:** Rode `uvicorn apicrime:app --reload` e acesse o Swagger em `http://127.0.0.1:8000/docs`.
+
+
 JSON
+
+
 {
+
+
   "bairro": "centro de marituba",
+
+  
   "mes": "janeiro",
+
+  
   "dia": "seg",
+
+  
   "hora": 14
+
+  
 }
+
 
 ## 🛠️ Diferencial Técnico: A Lógica de Classificação
 Para garantir a confiabilidade, implementamos uma lógica de decisão robusta:
