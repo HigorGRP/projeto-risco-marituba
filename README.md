@@ -37,6 +37,7 @@ graph LR
     I --> J(Normalização/Encoder)
     J --> K[Predição do Modelo]
     K --> L[Retorno JSON]
+```
 
 ## 🛠️ Tecnologias Utilizadas
 Python 3.10+
