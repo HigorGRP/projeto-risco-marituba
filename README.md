@@ -51,28 +51,20 @@ FastAPI: Criação da API de consulta.
 Joblib: Serialização do modelo e dos encoders.
 
 ## 🚀 Como Executar
-Instale as dependências:
 
-Bash
-pip install pandas scikit-learn fastapi uvicorn joblib openpyxl
-Treine o modelo:
+Para rodar o projeto localmente:
 
-Bash
-python model.py
-Inicie a API:
-
-Bash
-uvicorn apicrime:app --reload
-Consulte a API:
-Acesse a documentação em http://127.0.0.1:8000/docs e faça um POST no endpoint /prever_seguranca com o JSON:
-
+1. **Dependências:** `pip install pandas scikit-learn fastapi uvicorn joblib openpyxl`
+2. **Treino:** Execute `python model.py` para gerar o arquivo de modelo (`.pkl`).
+3. **API:** Rode `uvicorn apicrime:app --reload` e acesse o Swagger em `http://127.0.0.1:8000/docs`.
 JSON
 {
-  "bairro": "centro",
+  "bairro": "centro de marituba",
   "mes": "janeiro",
-  "dia": "segunda-feira",
+  "dia": "seg",
   "hora": 14
 }
+
 ## 🛠️ Diferencial Técnico: A Lógica de Classificação
 Para garantir a confiabilidade, implementamos uma lógica de decisão robusta:
 
